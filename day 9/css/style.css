@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 80%;
+    height: 89px;
+    left: 20%;
+    background-color: rgb(221, 218, 218);
+    color: rgb(76, 115, 150);
+    z-index: 1;
+}
+
+.searchbar { 
+    margin: 30px 60px;
+    
+}
+
+.searchbar input {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+aside h1 { 
+    margin: 30px 60px;
+}
+
+.placeholder{
+
+    
+}
+aside {
+    background-color: rgb(123, 121, 219);
+    color: aliceblue;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    
+}
+main {
+    background-color: darkgray;
+    color: aliceblue;
+    min-height: 50%;
+    width: 80%;
+    position: absolute;
+    left: 20.2%;
+    top: 90px;
+}
+footer { 
+    background-color: burlywood;
+    color: aliceblue;
+    height: 80px;
+    width: 80%;
+    position: fixed;
+    left: 20%;
+    bottom: 0;
+}

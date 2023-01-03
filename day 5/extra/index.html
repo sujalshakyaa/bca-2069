@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    body {
+        background-color: rgb(206, 202, 196);
+    }
+</style>
+<body>
+    <blockquote>
+        <h1>Registration Form</h1> 
+    <hr>
+    <form action="">
+        <img src="/image/desert.jpg" width="300" alt="Image"><br><br>
+        <label for="name">First Name</label>
+        <input type="text" id="firstname" name="username" placeholder="Enter First Name">
+        <label for="name">Middle Name</label>
+        <input type="text" id="middlename" name="username" placeholder="Enter Middle Name">
+        <label for="name">Last Name</label>
+        <input type="text" id="lastname" name="username" placeholder="Enter Last Name"><br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" placeholder="Password"><br><br>
+        <label for="confirmpassword">Confirm Password :</label>
+        <input type="password" id="confirm password" name="password" placeholder="Confirm Password"><br><br>
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" placeholder="Enter your E-mail"><br><br>
+        <label for="contact">Mobile No. :</label>
+        <input type="number" id="phone" name="mobilenumber" placeholder="Mobile Number"> (10 digit numbers) <br><br>
+        <label for="contact">Tel: no. :</label>
+        <input type="number" id="telephone" name="telephonenumber" placeholder="Telephone Number"><br><br>
+        <label for="pincode">Pin code :</label>
+        <input type="number" id="pincode" name="pincode" placeholder="Entetr PIN"> (6 digit numbers) <br><br>
+        <label>Gender :</label>
+        <label> <input type="radio" name="gender" value="male">Male</label>
+        <label> <input type="radio" name="gender" value="female">Female</label>
+        <label> <input type="radio" name="gender" value="other">Other</label><br><br>
+        <label>Language :</label>
+        <label> <input type="checkbox" name="language" value="english">English</label>
+        <label> <input type="checkbox" name="language" value="nepali">Nepali</label>
+        <label> <input type="checkbox" name="language" value="hindi">Hindi</label>
+        <label> <input type="checkbox" name="language" value="chinese">Chinese</label>
+        <label> <input type="checkbox" name="language" value="french">French</label>
+        <label> <input type="checkbox" name="language" value="other">Other </label>
+        <br><br>
+        <label for="country">Country :</label><br>
+        <select name="country" id="country">
+            <option selected disabled>---Select Country---</option>
+            <option value="nepal">Nepal</option>
+            <option value="japan">Japan</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label>Hobby :</label>
+        <label> <input type="checkbox" name="label" value="drawing">Drawing</label>
+        <label> <input type="checkbox" name="label" value="singing">Singing</label>
+        <label> <input type="checkbox" name="label" value="swimming">Swimming</label>
+        <label> <input type="checkbox" name="label" value="sports">Sports</label>
+        <label> <input type="checkbox" name="label" value="dancing">Dancing</label><br>
+        <label> <input type="checkbox" name="label" value="other">Other</label>
+        <input type="text" id="hobby" name="other"><br><br>
+        <label for="image">Profile Picture</label><br>
+            <input type="file" id="image"><br><br>
+            <label for="dob">Date of birth (A.D)</label>
+            <input type="date" id="dob">
+            <label for="dob">Date of birth (B.S)</label>
+            <input type="date" id="dob"><br><br>
+            <label for="comments">Comments</label><br>
+            <textarea name="description" style="resize: none;" cols="30" rows="5"></textarea><br>
+            
+            <button>Add</button><br><br>
+        </form>
+        <input type="submit" value="submit">
+</blockquote>
+</body>
+</html>

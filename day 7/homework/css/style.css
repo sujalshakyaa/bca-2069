@@ -1,0 +1,26 @@
+.box1 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(97, 102, 97);
+    text-align: center;
+    float: top;
+}
+.box2 {
+    width: 20%;
+    height: 500px;
+    background-color: darkgray;
+    float: left;
+}
+.box3 {
+    width: 79%;
+    height: 500px;
+    background-color: cadetblue;
+    float: right;
+}
+.boxlast {
+    width: 100%;
+    height: 300x;
+    background-color: darkslategrey;
+    text-align: center;
+    float: left;
+}

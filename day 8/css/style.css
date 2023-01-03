@@ -1,0 +1,24 @@
+.container { 
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: bisque;
+    position: fixed;
+}
+.box1 { 
+    width: 500px;
+    height: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 29mm;
+    top: 23mm;
+}
+.box2 { 
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    left: 56mm;
+    top: 23mm;
+}
+
