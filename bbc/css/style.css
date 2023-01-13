@@ -1,12 +1,377 @@
-body {
+*{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-/* ==============Header=================== */
-header {
-    width: 100%;
-    height: 20%;
+/* ===========Header Start========== */
+header{
     background-color: black;
+    width: 100%;
+    height: 64px;
 }
-/* =============Header End==================== */
+
+header .container{
+    display: flex;
+    line-height: 64px;
+}
+
+header .container .leftnav{
+    display: flex;
+    width: 20%;
+    height: 64px;
+    justify-content:space-between;
+}
+
+header .container .leftnav .logo img{
+    height: 32px;
+    line-height: 64px;
+    margin-top: 17px;
+    margin-left: 68px;
+    
+}
+
+header .container .leftnav .login i{
+    margin-left: 30px;
+    line-height: 64px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 26px;
+}
+
+header .container .leftnav .login a{
+    margin-left: 2px;
+    line-height: 64px;
+    text-decoration: none;
+    color: white;
+}
+
+header .container .line{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 24px;
+    border-left: 0.02px solid rgb(109, 107, 107);
+    height: 24px;
+}
+
+header .container .centernav{
+    margin-left: 70px;
+    width: 746px;
+    line-height: 70px;
+    align-items: center;
+    
+}
+
+header .container .centernav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header .container .centernav ul li{
+    text-decoration: none;
+    font-size: 14.8px;
+
+}
+
+header .container .centernav ul li.dots{
+    line-height: 48px;
+    font-size: 34px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header .container .centernav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+header .container .rightnav{
+    display: flex;
+}
+
+header .container .rightnav input{
+    height: 35px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    text-align: center;
+    background-color: #202224;
+}
+::placeholder {
+    color: aliceblue;
+    position: relative;
+    margin-left: 68px;
+}
+
+
+header .container .rightnav button{
+
+    margin-top: 15px;
+    /* margin-right: 3px; */
+    height: 35px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #202224;
+    color: aliceblue;
+    margin-left: -210px;
+}
+
+header .container .rightnav input i.fa.fa-search{
+    color: black;
+    
+}
+
+/* ============Header End============ */
+
+
+/* =============Body Start======== */
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+main .welcome p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+    display: flex;
+    width: 400px;
+    
+    
+}
+
+.welcome{
+    width: 1000px;
+}
+
+main .date p{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: rgb(131, 131, 131);
+    position: absolute;
+    margin-left: 989px;
+    transform: translate(0, -100%);
+    width: 205px;
+
+}
+
+.maincon {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 340px;
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 20px;
+
+}
+.leftcon {
+    /* border: 2px solid red; */
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.leftcon h1 {
+    margin-top: -158px;
+    margin-left: 15px;
+    color: aliceblue;
+    font-size: 32px;
+}
+.rightcon {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.leftcon img {
+    height: 100%;
+    width: 100%;
+    /* opacity: 88%; */
+    fill-opacity: 88%;
+    
+}
+.top {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 0.3rem;
+}
+.bottom {
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 0.3rem;
+}
+.topleft {
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+}
+.topleft >img {
+    width: 100%;
+    height: 100%;
+}
+.topright {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+.topright >img {
+    width: 100%;
+    height: 100%;
+}
+.bottomleft {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 100%;
+}
+.bottomleft >img {
+    width: 100%;
+    height: 100%;
+}
+.bottomright {
+    /* border: 2px solid rgb(71, 71, 30); */
+    width: 50%;
+    height: 100%;
+}
+.bottomright >img {
+    width: 100%;
+    height: 100%;
+}
+.news p{
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.newscon {
+    height: 210px;
+    /* background-color: aqua ; */
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftnewscon {
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+}
+.leftnewscon img {
+    width: 100%;
+    height: 100%;
+}
+.midnewscon {
+    /* background-color: red; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+    
+}
+.midnewscon img{
+    height: 100%;
+    width: 100%;
+}
+.rightnewscon {
+    /* background-color: royalblue; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+}
+.rightnewscon img {
+    height: 100%;
+    width: 100%;
+}
+.sports p {
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sportscon {
+    height: 210px;
+    /* background-color: aqua ; */
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftsportscon {
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+}
+.leftsportscon img {
+    width: 100%;
+    height: 100%;
+}
+.midsportscon {
+    /* background-color: red; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+    
+}
+.midsportscon img{
+    height: 100%;
+    width: 100%;
+}
+.rightsportscon {
+    /* background-color: royalblue; */
+    height: 100%;
+    width: 32.5%;
+    gap: 0.3rem;
+}
+.rightsportscon img {
+    height: 100%;
+    width: 100%;
+}
+footer {
+    margin-top: 50px;
+    background-color: #202224;
+    width: 100%;
+    height: 200px;
+}
+footer p {
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: sans-serif; 
+    display: flex;
+    
+}
+footer ul {
+    /* text-decoration: none; */
+    list-style: none;
+    display: flex;
+    
+}
+footer ul li {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+/* ================Body End============== */
