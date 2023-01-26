@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-name: my-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes my-move {
+    0% {
+        background: gray;
+    }
+}
+.display {
+    background-color: aqua;
+    width: 220px;
+    color: brown;
+    animation-name: displaying;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes displaying {
+    0% {
+       background: rebeccapurple;
+    }
+}

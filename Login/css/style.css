@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:rgb(146, 146, 146) ;
+}
+.container {
+    background-color: rgb(243, 243, 243);
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    border-radius: 9px;
+    margin-top: 50px;
+}
+.leftcon {
+    /* background-color: rgb(243, 243, 243); */
+    height: 100%;
+    width: 50%;
+    
+}
+.leftcon .mid {
+    height: 75%;
+    /* background-color: chartreuse; */
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.leftcon b{
+    font-size: 24px;
+    color: rgb(15, 15, 15);
+}
+.leftcon p {
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+}
+.leftcon form .email label {
+    font-size: 12px;
+    color: rgb(20, 20, 20);
+}
+.leftcon form .email input {
+    width: 264px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+}
+.leftcon form .password label {
+    font-size: 12px;
+    color: rgb(20, 20, 20);
+}
+.leftcon form .password input {
+    width: 264px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+}
+.semi {
+    display: flex;
+}
+.semi .info label{
+    font-size: 12px;
+}
+.semi .fp{
+    margin-left: 76px;
+}
+.semi .fp a{
+    text-decoration: none;
+    font-size: 12px;
+}
+/* =======Sign in====== */
+.signin {
+    background-color: rgb(81, 72, 131);
+    height: 30px;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    
+}
+.google {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid rgb(165, 165, 165);
+}
+.google a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+}
+/* ======= End Sign in======= */
+/* ------last------- */
+.last{
+    text-align: center;
+
+}
+.last p{
+    font-size: 11px;
+    
+}
+.last p a{
+   text-decoration: none;
+}
+/* ----End last----- */
+
+
+.rightcon {
+    background-color: rgb(221, 226, 202);
+    height: 100%;
+    width: 50%;
+}
+.rightcon img{
+    width: 100%;
+    height: 100%;
+}
+
